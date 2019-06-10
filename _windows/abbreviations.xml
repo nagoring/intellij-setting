@@ -1,0 +1,9 @@
+<application>
+  <component name="AbbreviationManager">
+    <abbreviations>
+      <action id="EditorLineEnd">
+        <abbreviation name="line_end" />
+      </action>
+    </abbreviations>
+  </component>
+</application>

@@ -1,0 +1,7 @@
+<templateSet group="PHP">
+  <template name="try;" value="try{&#10;&#10;}catch(\Throwable $ex){&#10;    echo $ex-&gt;getMessage();&#10;}&#10;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>

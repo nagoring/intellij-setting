@@ -1,0 +1,22 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="381f784f-10d7-4e3a-9465-677904423cd7" name="ftps eccube3.nagoring.com" url="http://153.127.1.118">
+        <fileTransfer host="153.127.1.118" port="21" accessType="FTPS">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" forceListCommand="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="70cd9558-e89e-4e39-b045-69bcda3ec41c" name="eccube3.nagoring.com" url="https://eccube3.nagoring.com">
+        <fileTransfer host="153.127.1.118" port="22" privateKey="C:\Users\nagomi\.ssh\id_rsa_gislnphw_mixhost" rootFolder="/home/gislnphw/public_html/eccube3.nagoring.com" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>
